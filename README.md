@@ -6,8 +6,7 @@
 The goal of this project is to develop ML models to predict whether an individual's income exceeds $50K per year based on demographic and features such as age, education, occupation, and working hours.
 
 This is a binary classification problem where the target variable is:
-- <=50K
-- >50K
+<=50K or >50K
 
 ---
 
@@ -52,13 +51,15 @@ The models were evaluated using the following metrics:
 - Matthews Correlation Coefficient (MCC)
 
 Results:
-         Model  Accuracy  Precision    Recall        F1       MCC       AUC
-0       logistic  0.821117   0.711497  0.446664  0.548801  0.463166  0.848527
-1            knn  0.827640   0.665468  0.587835  0.624247  0.514636  0.854533
-2  random_forest  0.862355   0.814717  0.562869  0.665772  0.598518  0.914548
-3  decision_tree  0.805196   0.597008  0.615978  0.606345  0.477064  0.741022
-4        xgboost  0.871531   0.777009  0.662733  0.715336  0.636396  0.926523
-5    naive_bayes  0.798894   0.678439  0.331366  0.445258  0.372291  0.852216
+
+| Model          | Accuracy | Precision | Recall   | F1       | MCC      | AUC      |
+|----------------|----------|-----------|----------|----------|----------|----------|
+| Logistic       | 0.821117 | 0.711497  | 0.446664 | 0.548801 | 0.463166 | 0.848527 |
+| KNN            | 0.827640 | 0.665468  | 0.587835 | 0.624247 | 0.514636 | 0.854533 |
+| Random Forest  | 0.862355 | 0.814717  | 0.562869 | 0.665772 | 0.598518 | 0.914548 |
+| Decision Tree  | 0.805196 | 0.597008  | 0.615978 | 0.606345 | 0.477064 | 0.741022 |
+| XGBoost        | 0.871531 | 0.777009  | 0.662733 | 0.715336 | 0.636396 | 0.926523 |
+| Naive Bayes    | 0.798894 | 0.678439  | 0.331366 | 0.445258 | 0.372291 | 0.852216 |
 
 ---
 
