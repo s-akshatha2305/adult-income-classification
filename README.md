@@ -84,3 +84,26 @@ Results:
 - Decision Tree exhibited slightly lower performance compared to ensemble methods, likely due to overfitting.
 - Naive Bayes showed the weakest performance, mainly because of its assumption of feature independence.
 - Overall, ensemble models such as Random Forest and XGBoost outperformed individual models.
+
+## 7. Capabilities of the app
+
+- Download test file and Upload it
+- Cached data loading for performance
+- Preview dataset with expandable stats
+- Handles missing values and encoding automatically
+- Model Evaluation (6 models): Logistic Regression, Decision Tree, KNN, Naive Bayes, Random Forest, XGBoost
+- Comprehensive metrics: Accuracy, Precision, Recall, F1, MCC, AUC
+
+- Visualizations:
+1. Performance bar charts for quick metric overview
+2. Confusion matrix (values + heatmap)
+3. Error analysis with pie charts (correct/incorrect, TP/TN/FP/FN)
+4. Top 5 feature importance rankings
+
+- Model Comparison:
+1. One-click evaluation of all 6 models
+2. Progress tracking with status updates
+3. individual metric bar charts
+4. Grouped bar chart for all metrics
+5. Interactive heatmap visualization
+6. Automatic best model identification
